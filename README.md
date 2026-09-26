@@ -90,6 +90,8 @@ streamlit run app.py
    ```
 4. Deploy. You'll get a `https://yourapp.streamlit.app` link to share with staff.
 
+**App Link:** [https://total-care-academy-academic-dashboard.streamlit.app/](https://total-care-academy-academic-dashboard.streamlit.app/)
+
 **Important — this is student data.** The password gate is a basic deterrent,
 not strong security. For a small family-run school this may be an acceptable
 trade-off, but worth layering on Streamlit Community Cloud's built-in viewer
