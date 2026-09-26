@@ -1,0 +1,25 @@
+# ---------------------------------------------------------------------------
+# Real secrets — never commit the actual password or a real GitHub token.
+# The .example file is the only one meant to be tracked.
+# ---------------------------------------------------------------------------
+.streamlit/secrets.toml
+
+# ---------------------------------------------------------------------------
+# Real student/staff data. Once [data_source] is configured (see
+# .streamlit/secrets.toml.example), these files are only a local fallback
+# for development — the real data lives in a separate private repo instead.
+# Even before that's set up, these should never be committed here.
+# ---------------------------------------------------------------------------
+data/*.csv
+
+# demo/ is intentionally NOT ignored — it's synthetic, fictional data with
+# zero overlap with real students, safe to keep tracked.
+
+# ---------------------------------------------------------------------------
+# Standard tooling junk
+# ---------------------------------------------------------------------------
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+*.log
